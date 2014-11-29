@@ -18,6 +18,8 @@ public class Artigo {
     String nome;
     String descricao;
     Usuario usuario;
+    List<Comentario> comentarios;
+    List<Tag> tags;
 
     public Artigo(Usuario usuario) {
         this.usuario = usuario;
@@ -30,7 +32,6 @@ public class Artigo {
     public void setUsuario(Usuario usuario) {
         this.usuario = usuario;
     }
-    List<Comentario> comentarios;
     
     public Comentario getComentario(Integer i) {
         return comentarios.get(i);
