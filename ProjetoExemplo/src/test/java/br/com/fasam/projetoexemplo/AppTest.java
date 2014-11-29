@@ -28,11 +28,10 @@ public class AppTest
         return new TestSuite( AppTest.class );
     }
 
-    /**
-     * Rigourous Test :-)
-     */
     public void testApp()
     {
-        assertTrue( true );
+        int val = 5;
+        assertEquals(val, 5);
+        
     }
 }
