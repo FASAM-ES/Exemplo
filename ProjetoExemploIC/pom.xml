@@ -8,7 +8,22 @@
 	<packaging>jar</packaging>
 
 	<name>ProjetoExemploIC</name>
-	<url>http://maven.apache.org</url>
+	<url>http://www.fasam.com.br</url>
+	
+	<distributionManagement>
+		<repository>
+			<id>central</id>
+			<name>Repositorio de Releases</name>
+			<url>http://ci.fasam.info.tm:8081/nexus/content/repositories/releases/</url>
+		</repository>
+		<snapshotRepository>
+			<id>snapshots</id>
+			<name>Repositório de Snapshots</name>
+			<url>http://ci.fasam.info.tm:8081/nexus/content/repositories/snapshots/</url>
+			<uniqueVersion>true</uniqueVersion>
+		</snapshotRepository>
+	</distributionManagement>
+	
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
