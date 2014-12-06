@@ -3,11 +3,11 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>br.com.fasam</groupId>
-  <artifactId>ProjetoExemplo</artifactId>
+  <artifactId>ProjetoExemploIC</artifactId>
   <version>1.0-SNAPSHOT</version>
   <packaging>jar</packaging>
 
-  <name>ProjetoExemplo</name>
+  <name>ProjetoExemploIC</name>
   <url>http://maven.apache.org</url>
 
   <properties>
