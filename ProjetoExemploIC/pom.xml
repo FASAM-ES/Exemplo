@@ -11,6 +11,8 @@
 	<url>http://www.fasam.com.br</url>
 	<scm>
 		<connection>scm:git:ssh://github.com/FASAM-ES/Exemplo.git</connection>
+		<developerConnection>scm:git:ssh://git@github.com/FASAM-ES/Exemplo.git</developerConnection>
+		<url>https://github.com/FASAM-ES/Exemplo</url>
 	</scm>
 	<distributionManagement>
 		<repository>
@@ -25,7 +27,7 @@
 			<uniqueVersion>true</uniqueVersion>
 		</snapshotRepository>
 	</distributionManagement>
-	
+
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -39,7 +41,7 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
-	
+
 	<build>
 		<plugins>
 			<plugin>
