@@ -32,7 +32,7 @@
 				<executions>
 					<execution>
 						<id>jacoco-init</id>
-						<phase>init</phase>
+						<phase>initialize</phase>
 						<goals>
 							<goal>prepare-agent</goal>
 						</goals>
