@@ -10,7 +10,7 @@
 	<name>ProjetoExemploIC</name>
 	<url>http://www.fasam.com.br</url>
 	<scm>
-		<connection>scm:git:https://github.com/FASAM-ES/Exemplo.git</connection>
+		<connection>scm:git:ssh://github.com/FASAM-ES/Exemplo.git</connection>
 	</scm>
 	<distributionManagement>
 		<repository>
